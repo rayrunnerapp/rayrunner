@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "Breakfast",
+      "recipes": [
+        {
+          "id": "breakfast-1",
+          "name": "Classic Pancakes",
+          "description": "Fluffy pancakes with a hint of vanilla",
+          "ingredients": ["Flour", "Milk", "Eggs", "Vanilla extract", "Butter"],
+          "tags": ["breakfast", "pancakes", "easy", "quick"],
+          "instructions": "1. Mix dry ingredients\n2. Add wet ingredients\n3. Cook on a hot griddle"
+        },
+        {
+          "id": "breakfast-2",
+          "name": "Avocado Toast",
+          "description": "Creamy avocado on toast with a sprinkle of salt",
+          "ingredients": ["Avocado", "Bread", "Salt", "Lemon juice"],
+          "tags": ["breakfast", "healthy", "vegetarian", "quick"],
+          "instructions": "1. Mash avocado\n2. Spread on toast\n3. Add toppings"
+        }
+      ]
+    },
+    {
+      "name": "Dinner",
+      "recipes": [
+        {
+          "id": "dinner-1",
+          "name": "Spaghetti Carbonara",
+          "description": "Classic Italian pasta dish with pancetta and eggs",
+          "ingredients": ["Spaghetti", "Pancetta", "Eggs", "Parmesan cheese", "Black pepper"],
+          "tags": ["dinner", "pasta", "italian", "classic"],
+          "instructions": "1. Cook spaghetti\n2. Cook pancetta\n3. Mix eggs and cheese\n4. Combine all ingredients"
+        }
+      ]
+    }
+  ]
+}
