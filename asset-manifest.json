@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rayrunner/static/css/main.e6c13ad2.css",
-    "main.js": "/rayrunner/static/js/main.03271272.js",
+    "main.js": "/rayrunner/static/js/main.73051983.js",
     "static/js/453.d82c33b3.chunk.js": "/rayrunner/static/js/453.d82c33b3.chunk.js",
     "index.html": "/rayrunner/index.html",
     "main.e6c13ad2.css.map": "/rayrunner/static/css/main.e6c13ad2.css.map",
-    "main.03271272.js.map": "/rayrunner/static/js/main.03271272.js.map",
+    "main.73051983.js.map": "/rayrunner/static/js/main.73051983.js.map",
     "453.d82c33b3.chunk.js.map": "/rayrunner/static/js/453.d82c33b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.03271272.js"
+    "static/js/main.73051983.js"
   ]
 }
