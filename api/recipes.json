@@ -1,0 +1,110 @@
+{
+  "groups": [
+    {
+      "name": "Productivity",
+      "recipes": [
+        {
+          "id": "recipe-1754177575616",
+          "name": "Start the day",
+          "author": "CarlosL",
+          "description": "This will automatically start safari and close spotify",
+          "tags": ["productivity", "daily", "uno", "dos", "tres", "cuatro"],
+          "commands": [
+            {
+              "id": "1-1754177513213",
+              "type": "command",
+              "value": "open",
+              "displayName": "Open Safari",
+              "subtitle": "Open application",
+              "tag": "open",
+              "icon": "Icon.AppWindow",
+              "app": {
+                "name": "Safari",
+                "bundleId": "com.apple.Safari",
+                "path": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+              }
+            },
+            {
+              "id": "1-17123513213",
+              "type": "command",
+              "value": "close",
+              "displayName": "Close Spotify",
+              "subtitle": "Close application",
+              "tag": "open",
+              "icon": "Icon.AppWindow",
+              "app": {
+                "name": "Safari",
+                "bundleId": "com.apple.Safari",
+                "path": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+              }
+            },
+            {
+              "id": "timer-1754177801376",
+              "type": "command",
+              "value": "timer",
+              "displayName": "timer 16:36",
+              "subtitle": "Select a time to run following commands",
+              "tag": "time",
+              "icon": "Icon.Clock",
+              "time": "16:36"
+            },
+            {
+              "id": "54-1754177848033",
+              "type": "command",
+              "value": "copyToClipboard",
+              "displayName": "Clipboard",
+              "subtitle": "Set a message to be copied to Clipboard",
+              "tag": "clipboard",
+              "icon": "Icon.Clipboard"
+            },
+            {
+              "id": "3",
+              "type": "run",
+              "value": "raycast://extensions/raycast/raycast/confetti",
+              "displayName": "Confetti",
+              "subtitle": "",
+              "tag": "",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communication",
+      "recipes": [
+        {
+          "id": "comm-1",
+          "name": "Start Team Meeting",
+          "description": "Opens Zoom and prepares meeting notes",
+          "tags": ["meeting", "zoom", "work"],
+          "commands": [
+            {
+              "id": "zoom-1",
+              "type": "command",
+              "value": "open",
+              "displayName": "Open Zoom",
+              "subtitle": "Open application",
+              "tag": "open",
+              "icon": "Icon.AppWindow",
+              "app": {
+                "name": "Zoom",
+                "bundleId": "us.zoom.xos",
+                "path": "/Applications/zoom.us.app"
+              }
+            },
+            {
+              "id": "notes-2",
+              "type": "command",
+              "value": "copyToClipboard",
+              "displayName": "Copy Meeting Template",
+              "subtitle": "Copy meeting notes template to clipboard",
+              "tag": "clipboard",
+              "icon": "Icon.Clipboard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
