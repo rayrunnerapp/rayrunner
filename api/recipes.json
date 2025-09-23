@@ -6,7 +6,7 @@
       "recipes": [
         {
           "id": "recipe-1754177575616",
-          "name": "Start the day!",
+          "name": "Start the day!!!",
           "author": "CarlosL",
           "description": "This will automatically start safari and close spotify",
           "delay": 2000,
