@@ -1,5 +1,5 @@
 {
-  "version": "1.014",
+  "version": "1.016",
   "groups": [
     {
       "name": "Productivity",
@@ -79,11 +79,11 @@
       ]
     },
     {
-      "name": "test here i am",
+      "name": "carlos test here i am",
       "recipes": [
         {
           "id": "comm-1",
-          "name": "test here!! i am",
+          "name": "Carlos test",
           "description": "Opens Zoom and prepares meeting notes",
           "tags": [
             "meeting",
