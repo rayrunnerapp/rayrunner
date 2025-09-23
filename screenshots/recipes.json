@@ -1,5 +1,5 @@
 {
-  "version": "1.016",
+  "version": "1.017",
   "groups": [
     {
       "name": "Productivity",
@@ -9,6 +9,7 @@
           "name": "Start the day",
           "author": "CarlosL",
           "description": "This will automatically start safari and close spotify",
+          "delay": 2000,
           "tags": [
             "productivity",
             "daily",
@@ -85,6 +86,7 @@
           "id": "comm-1",
           "name": "Carlos test",
           "description": "Opens Zoom and prepares meeting notes",
+          "delay": 2000,
           "tags": [
             "meeting",
             "zoom",
